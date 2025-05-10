@@ -1,0 +1,160 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Daniel Andrés
+    last_name: Páez Rojas
+    
+    # Define yourself in 4-5 words
+    motto: I love learning
+    
+    # Focus
+    focus: Learning Data Science and Machine Learning
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Asprirising to became a Machine Learning Engineer.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar:  http://sep.breatheco.de/static/profile-images/danielpaez.webp
+
+    # Contact Information
+    email: danielpaez.dev@proton.me #optional
+    phone: +34 696 88 47 79 #optional
+    website: danielpaez.dev #optional
+    linkedin: https://www.linkedin.com/in/danielpaez-dev/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: danielpaez-dev
+    
+    twitter: '' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+    # Interests or hobbies
+    interests:
+      - item: Roller skating
+
+      - item: Videogames
+
+      - item: Playing the guitar
+
+# Your previous education
+education:
+    - degree: Data Science and Machine Learning
+      university: 4Geeks Academy
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2025 - 2025
+      details: |
+        Intensive data science training focused on developing practical skills in data analysis, statistics, Python programming, and machine learning. During the program, I worked on real-world projects, applying data cleaning, exploration, and visualization techniques, as well as regression, classification, and clustering models.
+        The technologies and tools used included Python, Pandas, NumPy, Matplotlib, Scikit-learn, Jupyter Notebooks, SQL, and Git.
+          
+          - Developed complete data analysis and modeling projects from scratch.
+
+          - Apply supervised and unsupervised models to solve real-world problems.
+
+          - Collaborate with teams using good version control practices with Git and GitHub.
+
+          - Present results using clear visualizations and data storytelling.
+
+    - degree: Meta Front-End Developer Specialization
+      university: Coursera (taugth by Meta staff)
+      # optional
+      university_logo:
+      time: 2024- 2024
+      details: |
+        Specialized program in front-end development, designed by Meta engineers. Throughout this training I learned how to build modern and accessible web interfaces using HTML, CSS, JavaScript and React along with SCSS, Bootstrap and Git applying responsive design principles, UI/UX design with Figma, accessibility best practices and agile development methodologies.
+          
+          - Creating responsive websites from scratch with HTML5 and CSS3.
+
+          - Programming in modern JavaScript (ES6+) and DOM management along with local storage.
+
+          - Development of interactive web applications with React.
+
+          - Designed UI/UX experiences with Figma.
+
+    - degree: CFGM Administrative Management
+      university: IES N1
+      # optional
+      university_logo: 
+      time: 2016 - 2018
+      details: |
+        Professional training focused on the administrative and accounting procedures of a company. I acquired theoretical and practical knowledge in documentation management, customer service, basic accounting, treasury operations and human resources, using specialized computer tools and current regulations.
+          
+          - Processing of business documents and file management.
+
+          - Handling of office applications.
+
+          - Management of collections, payments, invoicing and cash control.
+
+          - Administrative attention to clients, suppliers and other external agents.
+
+          - Knowledge of labor, tax and commercial regulations applied to the company.
+
+# Your project portfolio
+projects:
+    intro: >
+      A selection of personal and academic projects where I applied what I’ve learned in front-end development. These projects demonstrate my ability to build responsive interfaces, manage back-end functionality, and work with real-world problems with full-stack applications.
+
+    assignments:
+      - title: FullStack Note App
+        # optional
+        project_logo: 
+        link: "https://github.com/danielpaez-dev/NoteApp"
+        tagline: "Developed a full-stack application with React usingatomic design and Django that allows authenticatedusers to manage their notes (CRUD) through a RESTfulAPI, Auth0 and SQLite."
+
+      - title: Portfolio
+        # optional
+        project_logo: 
+        link: "https://danielpaez.dev/"
+        tagline: "Created and deployed a minimalist portfolio with Astro and Tailwind a template with an automated CV.pdf export, documentation andtranslation all just by editing a .json file with SSR."
+
+      - title: Minesweeper
+        # optional
+        project_logo: 
+        link: "https://github.com/danielpaez-dev/minesweeper"
+        tagline: "Built a minesweeper based on Google minesweeper with JavaScript improving the gameplay. I used OOP, arrays,flood fill, events, states, local storage and closuresamong others."
+
+      - title: Little Lemon Restaurant
+        # optional
+        project_logo:
+        link: "https://little-lemon-restaurant-danielpaezdev.netlify.app/"
+        tagline: "Developed the final project of the Coursera's 'Meta Front-End Developer' specialization with React, testingwith Jest, form validation with Formik and Yup, React-Bootstrap and advanced SCSS for styles, among others."
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 60%
+
+      - name: JavaScrip & TypeScript
+        level: 60%
+
+      - name: React
+        level: 60%
+
+      - name: HTML5, CSS & SCSS
+        level: 90%
+
+      - name: Bootstrap & Tailwind
+        level: 80%
+
+      - name: MySQL
+        level: 50%
